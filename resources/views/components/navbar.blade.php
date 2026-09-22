@@ -5,7 +5,7 @@
         {{-- Logo --}}
         <a href="{{ route('home') }}" class="navbar-brand">
             <img
-                src="{{ asset('images/greenFieldLogo.jpeg') }}"
+                src="{{ asset('images/GreenFieldLogo.jpeg') }}"
                 alt="Greenfield Training & Consultancy Safety"
                 class="site-logo"
             >

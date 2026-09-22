@@ -18,7 +18,7 @@
 
             <div class="admin-login-logo">
                 <img
-                    src="{{ asset('images/greenFieldLogo.jpeg') }}"
+                    src="{{ asset('images/GreenFieldLogo.jpeg') }}"
                     alt="Greenfield Training & Consultancy Safety"
                 >
             </div>

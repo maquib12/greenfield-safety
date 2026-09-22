@@ -21,7 +21,7 @@
 
             <div class="admin-sidebar-logo">
                 <img
-                    src="{{ asset('images/greenFieldLogo.jpeg') }}"
+                    src="{{ asset('images/GreenFieldLogo.jpeg') }}"
                     alt="Greenfield"
                 >
             </div>
