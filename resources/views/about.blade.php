@@ -2,6 +2,10 @@
 
 @section('title', 'About Us | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', 'Learn about Greenfield Training & Consultancy Safety, our approach to safety training, HSE consultancy and workplace safety solutions.')
+
+@section('meta_keywords', 'about Greenfield Safety, safety consultancy UAE, HSE training UAE, workplace safety UAE')
+
 @section('content')
 
     {{-- ABOUT HERO --}}

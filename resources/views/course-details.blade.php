@@ -2,6 +2,10 @@
 
 @section('title', 'Course Details | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', $courseData['overview'] ?: 'Professional safety training course by Greenfield Training & Consultancy Safety.')
+
+@section('meta_keywords', $courseData['title'] . ', safety training UAE, HSE training, Greenfield Safety')
+
 @section('content')
 
     {{-- COURSE HERO --}}

@@ -7503,3 +7503,60 @@
 .admin-table td:nth-child(6) {
     width: 130px;
 }
+
+
+/* =========================================================
+   FLOATING CONTACT BUTTONS
+   ========================================================= */
+
+.floating-contact-buttons {
+    position: fixed;
+    left: 18px;
+    bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.floating-contact-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+    transition: all 0.25s ease;
+}
+
+.floating-contact-btn:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.floating-contact-btn.whatsapp {
+    background: #25D366;
+}
+
+.floating-contact-btn.phone {
+    background: #0d6efd;
+}
+
+@media (max-width: 575px) {
+
+    .floating-contact-buttons {
+        left: 12px;
+        bottom: 18px;
+        gap: 8px;
+    }
+
+    .floating-contact-btn {
+        width: 44px;
+        height: 44px;
+        font-size: 19px;
+    }
+}

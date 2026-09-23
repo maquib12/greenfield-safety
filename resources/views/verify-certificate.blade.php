@@ -2,6 +2,10 @@
 
 @section('title', 'Verify Certificate | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', 'Verify safety training certificates issued by Greenfield Training & Consultancy Safety using the certificate verification system.')
+
+@section('meta_keywords', 'certificate verification UAE, safety certificate verification, training certificate verification, Greenfield certificate')
+
 @section('content')
 
     {{-- VERIFY HERO --}}

@@ -2,6 +2,10 @@
 
 @section('title', $blog->title . ' | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', $blog->excerpt ?: 'Safety, HSE and workplace safety insights from Greenfield Training & Consultancy Safety.')
+
+@section('meta_keywords', $blog->category . ', safety, HSE, workplace safety, Greenfield Safety')
+
 @section('content')
 
     {{-- Blog Hero --}}

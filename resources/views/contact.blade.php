@@ -2,6 +2,10 @@
 
 @section('title', 'Contact Us | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', 'Contact Greenfield Training & Consultancy Safety for safety training, HSE consultancy, risk assessment and workplace safety services.')
+
+@section('meta_keywords', 'contact Greenfield Safety, safety training UAE, HSE consultancy UAE, safety services UAE')
+
 @section('content')
 
     {{-- CONTACT HERO --}}

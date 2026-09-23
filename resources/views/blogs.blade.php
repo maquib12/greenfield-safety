@@ -2,6 +2,10 @@
 
 @section('title', 'Blogs | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', 'Read safety, HSE, workplace safety and risk management insights from Greenfield Training & Consultancy Safety.')
+
+@section('meta_keywords', 'safety blog UAE, HSE insights, workplace safety tips, risk management, safety awareness')
+
 @section('content')
 
     {{-- Blog Hero --}}

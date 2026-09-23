@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('title', 'Greenfield Training & Consultancy Safety')
+@section('meta_description', 'Greenfield Training & Consultancy Safety provides professional safety training, HSE consultancy, risk assessment and workplace safety solutions in the UAE.')
 
+@section('meta_keywords', 'Greenfield Safety, safety training UAE, HSE consultancy UAE, risk assessment UAE, workplace safety, safety courses UAE')
 @section('content')
 
     {{-- =========================
@@ -235,7 +237,7 @@
                         </div>
 
 
-                        <a href="#" class="btn about-btn">
+                        <a href="{{ route('about') }}" class="btn about-btn">
                             Learn More
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -461,7 +463,7 @@
                                 and confidently.
                             </p>
 
-                            <a href="#" class="service-link">
+                            <a href="{{ route('training') }}" class="service-link">
                                 Explore Training
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -504,7 +506,7 @@
                                 working environments.
                             </p>
 
-                            <a href="#" class="service-link">
+                            <a href="{{ route('consultancy') }}" class="service-link">
                                 Explore Services
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -710,7 +712,7 @@
                                 teams and organizations across different industries.
                             </p>
 
-                            <a href="#" class="facility-link">
+                            <a href="{{ route('training') }}" class="facility-link">
                                 Learn More
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -740,7 +742,7 @@
                                 identify risks and improve workplace safety performance.
                             </p>
 
-                            <a href="#" class="facility-link">
+                            <a href="{{ route('consultancy') }}" class="facility-link">
                                 Learn More
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -800,7 +802,7 @@
                                 health, safety and environmental management systems.
                             </p>
 
-                            <a href="#" class="facility-link">
+                            <a href="{{ route('consultancy') }}" class="facility-link">
                                 Learn More
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -830,7 +832,7 @@
                                 understand workplace hazards and control risks.
                             </p>
 
-                            <a href="#" class="facility-link">
+                            <a href="{{ route('consultancy') }}" class="facility-link">
                                 Learn More
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -860,7 +862,7 @@
                                 and operational requirements of organizations.
                             </p>
 
-                            <a href="#" class="facility-link">
+                            <a href="{{ route('consultancy') }}" class="facility-link">
                                 Learn More
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -923,7 +925,7 @@
                                 and safety principles through structured training.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -964,7 +966,7 @@
                                 responsibilities, risk awareness and prevention.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -1005,7 +1007,7 @@
                                 and workplace fire safety practices.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -1046,7 +1048,7 @@
                                 workplace emergencies and first aid situations.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -1087,7 +1089,7 @@
                                 safe practices and health and safety responsibilities.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -1128,7 +1130,7 @@
                                 practical approaches to controlling hazards.
                             </p>
 
-                            <a href="#" class="course-link">
+                            <a href="{{ route('training') }}" class="course-link">
                                 View Course
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -1140,7 +1142,7 @@
             </div>
 
             <div class="courses-button">
-                <a href="#" class="btn courses-btn">
+                <a href="{{ route('training') }}" class="btn courses-btn">
                     View All Training Courses
                     <i class="bi bi-arrow-right"></i>
                 </a>
@@ -1243,13 +1245,13 @@
 
                 <div class="cta-buttons">
 
-                    <a href="#" class="btn cta-primary-btn">
+                    <a href="{{ route('training') }}" class="btn cta-primary-btn">
                         <i class="bi bi-mortarboard-fill"></i>
                         Explore Training
                         <i class="bi bi-arrow-right"></i>
                     </a>
 
-                    <a href="#" class="btn cta-secondary-btn">
+                    <a href="{{ route('contact') }}" class="btn cta-secondary-btn">
                         <i class="bi bi-chat-dots-fill"></i>
                         Talk to Our Team
                     </a>

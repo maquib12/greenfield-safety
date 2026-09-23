@@ -2,6 +2,10 @@
 
 @section('title', 'Safety Training Courses | Greenfield Training & Consultancy Safety')
 
+@section('meta_description', 'Explore professional safety training courses offered by Greenfield Training & Consultancy Safety, designed to develop workplace safety knowledge, skills and competency.')
+
+@section('meta_keywords', 'safety training courses UAE, HSE training, workplace safety courses, safety certification UAE, Greenfield training')
+
 @section('content')
 
     {{-- TRAINING HERO --}}

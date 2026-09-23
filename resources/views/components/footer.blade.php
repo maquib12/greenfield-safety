@@ -106,35 +106,35 @@
                         <ul>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('training') }}">
                                     <i class="bi bi-chevron-right"></i>
                                     Safety Training
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('consultancy') }}">
                                     <i class="bi bi-chevron-right"></i>
                                     Safety Consultancy
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('consultancy') }}">
                                     <i class="bi bi-chevron-right"></i>
                                     Safety Inspection
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('consultancy') }}">
                                     <i class="bi bi-chevron-right"></i>
                                     HSE Management
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('consultancy') }}">
                                     <i class="bi bi-chevron-right"></i>
                                     Risk Assessment
                                 </a>

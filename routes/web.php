@@ -14,6 +14,7 @@ use App\Models\Blog;
 use App\Http\Controllers\Admin\CourseController;
 use App\Models\Course;
 use App\Http\Controllers\Admin\CertificationApprovalController;
+use App\Http\Controllers\SitemapController;
 
 Route::get('/', function () {
     return view('home');
@@ -96,6 +97,8 @@ Route::get('/blogs/{slug}', function ($slug) {
     return view('blog-details', compact('blog'));
 
 })->name('blog.details');
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])
+    ->name('sitemap');
 
 Route::prefix('admin')->group(function () {
 
